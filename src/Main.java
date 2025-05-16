@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         //TIP ハイライトされたテキストにキャレットがある状態で <shortcut actionId="ShowIntentionActions"/> を押すと
         // IntelliJ IDEA によるその修正案を確認できます。
-        System.out.printf("山本捺月");
+        System.out.printf("山本 捺月");
 
 
         for (int i = 1; i <= 5; i++) {
