@@ -8,7 +8,7 @@ public class Review4 {
         final double PI = 3.141592; //③
 //PI = 3.14; //再代入禁止
 //float circ = 3.14; //doubleからfloatに暗黙型型変換で代入されない
-        long a = 10000000000L; //int型のリテラル超えるからlong　long型のリテラルはlが必要
+        long a = 10000000000L; //int型のリテラル超えるからlong　long型のリテラルはLが必要
 //boolean flg = "true";
         boolean flg = true;
         byte b = 35;
