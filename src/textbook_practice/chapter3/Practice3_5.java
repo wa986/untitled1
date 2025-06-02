@@ -3,11 +3,11 @@ package textbook_practice.chapter3;
 import java.io.*;
 public class Practice3_5 {
     public static void main(String[] args) throws IOException {
-        InputStreamReader br = new InputStreamReader(System.in);
-        System.out.print("[メニュー]1:検索 2:登録 3:削除 4:変更 >");
-        String selected =br.readLine;
-        //int selected = 0;
-        switch(selected) {
+        System.out.print("［メニュー］1：検索 2：登録 3：削除 4：変更＞");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String line = reader.readLine();
+        int selected = Integer.parseInt(line);
+        switch (selected) {
             case 1:
                 System.out.println("検索します");
                 break;
@@ -20,8 +20,7 @@ public class Practice3_5 {
             case 4:
                 System.out.println("変更します");
                 break;
-            default:
-                break;
         }
     }
 }
+
