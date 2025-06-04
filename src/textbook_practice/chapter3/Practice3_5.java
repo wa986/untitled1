@@ -4,8 +4,8 @@ import java.io.*;
 public class Practice3_5 {
     public static void main(String[] args) throws IOException {
         System.out.print("［メニュー］1：検索 2：登録 3：削除 4：変更＞");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String line = reader.readLine();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = br.readLine();
         int selected = Integer.parseInt(line);
         switch (selected) {
             case 1:
