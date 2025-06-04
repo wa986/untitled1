@@ -2,9 +2,9 @@ package textbook_practice.chapter5;
 
 public class Practice5_2 {
     public static void main(String[] args) {
-        String title = "お誘い";
-        String address = "dummy@xxxx.com";
-        String text = "今度、飲みにいきませんか";
+        String title = "メールのタイトル";
+        String address = "メールの宛先アドレス";
+        String text = "メールの本文";
         email(title, address, text);
     }
     public static void email(String title, String address, String text) {

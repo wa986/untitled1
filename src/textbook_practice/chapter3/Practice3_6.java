@@ -2,7 +2,7 @@ package textbook_practice.chapter3;
 
 public class Practice3_6 {
     public static void main(String[] args) {
-        System.out.print("【数あてゲーム】");
+        System.out.println("【数あてゲーム】");
         int ans = new java.util.Random().nextInt(10);
         for (int i = 0; i < 5; i++) {
             System.out.println("0〜9の数字を入力してください");

@@ -1,7 +1,5 @@
 package textbook_practice.chapter6.Practice6_3.comment;
 
-import textbook_practice.chapter6.Practice6_1.comment.Zenhan;
-
 //package comment;
 public class Kouhan {
     public static void callDeae() {

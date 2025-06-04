@@ -2,8 +2,8 @@ package textbook_practice.chapter5;
 
 public class Practice5_3 {
     public static void main(String[] args) {
-        String address = "dummy@example.com";
-        String text = "今度、飲みにいきませんか";
+        String address = "メールの宛先アドレス";
+        String text = "メールの本文";
         email(address, text);
     }
     /*オーバーロードとは
